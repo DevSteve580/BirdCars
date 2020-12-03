@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+  <View
+      android:id="@+id/view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/signin"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnSignin"
+      android:layout_width="312dp"
+      android:layout_height="56dp"
+      android:layout_marginBottom="152dp"
+      android:text="SIGN IN"
+      app:backgroundTint="@color/btnsignin"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/view" />
+
+  <Button
+      android:id="@+id/btnRegister"
+      android:layout_width="160dp"
+      android:layout_height="20dp"
+      android:layout_marginBottom="20dp"
+      android:background="@android:color/transparent"
+      android:backgroundTint="@null"
+      app:backgroundTint="@null"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/tvForPass"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"
+      android:text="Forgot Password ?"
+      app:layout_constraintBottom_toTopOf="@+id/btnSignin"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="98dp"
+      android:text="Create A New Account ?"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnSignin" />
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cvLog1"
+      android:layout_width="312dp"
+      android:layout_height="50dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toTopOf="@+id/cvPass"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <ImageView
+        android:id="@+id/ivUser1"
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/ktqj1" />
+
+    <ImageView
+        android:id="@+id/ivLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/line1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/etLog1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="65dp"
+          android:ems="10"
+          android:inputType="text" />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cvPass"
+      android:layout_width="312dp"
+      android:layout_height="50dp"
+      android:layout_marginBottom="20dp"
+      app:layout_constraintBottom_toTopOf="@+id/tvForPass"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <ImageView
+        android:id="@+id/ivPass"
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/amkpvd1" />
+
+    <ImageView
+        android:id="@+id/ivLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/line2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/etePass"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="65dp"
+          android:ems="10"
+          android:inputType="textPassword" />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

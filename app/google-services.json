@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "615404783995",
+    "project_id": "birdcars-a4b12",
+    "storage_bucket": "birdcars-a4b12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615404783995:android:424751ec5f92644f54d5de",
+        "android_client_info": {
+          "package_name": "com.example.birdcars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615404783995-7n5osvvcnge5s9uu0es8704m182ulqcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.birdcars",
+            "certificate_hash": "e03456e22c10b00f659bbd65ef34e4985260cb4a"
+          }
+        },
+        {
+          "client_id": "615404783995-c1kdl6teeu9vdkmpbuh04biqpbuhr7eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4rc_CyJEWlluCL4W7JcCUCgmBJ8_k_NM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615404783995-c1kdl6teeu9vdkmpbuh04biqpbuhr7eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
